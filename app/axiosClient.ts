@@ -9,7 +9,7 @@ import axios from 'axios'
 const instanse = axios.create({
   headers: { 'X-Requested-With': 'XMLHttpRequest' },
   method: 'get',
-  timeout: 3000,
+  timeout: 5000,
   withCredentials: true,
   baseURL: 'https://shopfishsite.onrender.com',
 })
