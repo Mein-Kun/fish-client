@@ -8,7 +8,7 @@ import axios from 'axios'
 
 const instanse = axios.create({
   withCredentials: true,
-  baseURL: 'http://localhost:3000',
+  baseURL: 'https://shopfishsite.onrender.com',
 })
 
 export default instanse
